@@ -94,10 +94,18 @@
   justify-content: space-between;
 }
 
-.task_main > a
+.task_main > p
 {
+  text-align: justify;
+  width: 90%;
+}
+
+.task_main > a
+{ 
+  max-width: 90%;
   text-decoration: none;
   color: black;
+  text-align: justify;
 }
 
 

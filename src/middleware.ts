@@ -3,7 +3,7 @@ import { NextRequest } from "next/server";
 
 export async function middleware(req: NextRequest) {
   // Verifique se a requisição possui cookies de sessão
-  const sessionCookie = req.cookies.get('__Secure-next-auth.session-token');
+  const sessionCookie = req.cookies.get(process.env.SECURE_COOKIE as string);
   const signInUrl = new URL('/', req.url); 
   const dashboardUrl = new URL('dashboard', req.url);
 

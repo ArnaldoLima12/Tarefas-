@@ -6,13 +6,16 @@ import 'primeicons/primeicons.css';
 import "@/styles/globals.css";
 
 export default function ClientLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  
   const [theme, setTheme] = useState<string>('lara-dark-blue'); // Tema padrão
 
   useEffect(() => {
-    // Função para verificar o tema no localStorage
+  
     const getInitialTheme = () => {
       if (typeof window !== "undefined") { // Verifica se está no ambiente do navegador
+        
         const userTheme = localStorage.getItem('theme');
+        
         if (userTheme) {
           const theme = JSON.parse(userTheme);
           return theme.css;

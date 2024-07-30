@@ -1,12 +1,11 @@
+import {collection, getDocs } from 'firebase/firestore';
 import style from '@/styles/home.module.css';
 import { Button } from "primereact/button";
-import Image from "next/image";
-import {collection, getDocs } from 'firebase/firestore';
 import { db } from '@/services/firebase';
+import Image from "next/image";
 import { cache } from 'react';
 
-export const revalidate = 400 // revalidate at most every hour
-
+export const revalidate = 400;
 
 const getData = cache(async () => {
   
@@ -24,7 +23,7 @@ export default async function Home() {
 
   return (
     <main className={style.main}>
-      <Image src={'/hero.png'} width={300} height={200} alt="hero.png" priority={true} objectFit="scale-down" />
+      <Image src={'/hero.png'} width={300} height={200} alt="hero.png" priority={true} />
 
       <article>
         <p>Sistema feito para você organizar <br />seus estudos e tarefas</p>
