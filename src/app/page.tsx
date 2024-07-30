@@ -5,7 +5,7 @@ import { db } from '@/services/firebase';
 import Image from "next/image";
 import { cache } from 'react';
 
-export const revalidate = 400;
+export const revalidate = 100;
 
 const getData = cache(async () => {
   
