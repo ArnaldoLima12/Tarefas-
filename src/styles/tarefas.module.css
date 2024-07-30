@@ -1,0 +1,64 @@
+.contain
+{
+    max-width: 1024px;
+    margin: auto;
+}
+
+.contain h3
+{
+    font-size: 24px;
+}
+
+.form_comment
+{
+    margin-top: 50px;
+}
+.form_comment > h2
+{
+    margin-bottom: 5px;
+}
+
+.form_comment > form > button
+{   
+    margin-top: 20px;
+    color: white;
+    width: 100%;
+}
+
+.container_comment
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 10px;
+}
+.header_comment
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.main_comment
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.name_comment
+{
+    background-color: #3183ff;
+    padding: 5px;
+    border-radius: 4px;
+    color: white;
+}
+@media (max-width: 1024px) {
+    
+    .contain {
+        padding: 10px;
+    }
+}
