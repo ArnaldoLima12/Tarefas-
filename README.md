@@ -14,7 +14,7 @@ Bem-vindo ao **Gerenciador de Tarefas**! Este é um projeto de gerenciamento de 
 - **[Next.js](https://nextjs.org/)**: Framework React para renderização do lado do servidor e geração de sites estáticos.
 - **[NextAuth.js](https://next-auth.js.org/)**: Biblioteca de autenticação para Next.js, suportando login com Google e GitHub.
 - **[Firebase](https://firebase.google.com/)**: Plataforma para gerenciamento de autenticação e banco de dados em tempo real.
-- **[ReactPrime](https://www.primefaces.org/primereact/)**: Biblioteca de componentes React para uma interface de usuário elegante e interativa.
+- **[PrimeReact](https://www.primefaces.org/primereact/)**: Biblioteca de componentes React para uma interface de usuário elegante e interativa.
 
 ## 📦 Como Começar
 
