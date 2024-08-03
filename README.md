@@ -25,7 +25,7 @@ Bem-vindo ao **Gerenciador de Tarefas**! Este é um projeto de gerenciamento de 
 
 2. **Instale as Dependências**:
     ```bash
-    cd gerenciador-de-tarefas
+    cd tarefas
     npm install
     ```
 
