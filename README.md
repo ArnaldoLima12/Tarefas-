@@ -66,10 +66,6 @@ Bem-vindo ao **Gerenciador de Tarefas**! Este é um projeto de gerenciamento de 
 
 Se você tiver dúvidas ou quiser contribuir para o projeto, sinta-se à vontade para abrir uma [issue](https://github.com/ArnaldoLima12/tarefas/issues) ou fazer um [pull request](https://github.com/ArnaldoLima12/tarefas/pulls). 
 
-## 📄 Licença
-
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
-
 ---
 
 Obrigado por conferir o projeto! 🚀
