@@ -20,7 +20,7 @@ Bem-vindo ao **Gerenciador de Tarefas**! Este é um projeto de gerenciamento de 
 
 1. **Clone o Repositório**: 
     ```bash
-    git clone https://github.com/seuusuario/gerenciador-de-tarefas.git
+    git clone https://github.com/ArnaldoLima12/tarefas.git
     ```
 
 2. **Instale as Dependências**:
