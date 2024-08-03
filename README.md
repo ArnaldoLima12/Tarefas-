@@ -64,7 +64,7 @@ Bem-vindo ao **Gerenciador de Tarefas**! Este é um projeto de gerenciamento de 
 
 ## 🤔 Dúvidas e Contribuições
 
-Se você tiver dúvidas ou quiser contribuir para o projeto, sinta-se à vontade para abrir uma [issue](https://github.com/seuusuario/gerenciador-de-tarefas/issues) ou fazer um [pull request](https://github.com/seuusuario/gerenciador-de-tarefas/pulls). 
+Se você tiver dúvidas ou quiser contribuir para o projeto, sinta-se à vontade para abrir uma [issue](https://github.com/ArnaldoLima12/gerenciador-de-tarefas/issues) ou fazer um [pull request](https://github.com/ArnaldoLima12/gerenciador-de-tarefas/pulls). 
 
 ## 📄 Licença
 
